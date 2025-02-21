@@ -1,0 +1,1 @@
+The Firebase Authentication SDK might throw an unexpected error if the `currentUser` property is accessed before the authentication state has fully initialized. This can lead to null pointer exceptions or undefined behavior in your application.
